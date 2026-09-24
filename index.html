@@ -3,16 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sử dụng thẻ hình ảnh trong HTML</title>
+    <title>Danh sách sản phẩm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bài tập sử dụng thẻ hình ảnh</h1>
+    <h1>Danh sách sản phẩm</h1>
 
-    <!-- Sử dụng thẻ img với link ảnh trực tuyến và thuộc tính alt mô tả -->
-    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600" 
-         alt="Bàn làm việc với laptop đang hiển thị mã nguồn lập trình" 
-         width="500">
-
-    <p>Hình ảnh minh họa góc học tập và làm việc của lập trình viên.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bàn phím cơ</td>
+                <td>1.200.000 VNĐ</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Chuột không dây</td>
+                <td>450.000 VNĐ</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Tai nghe gaming</td>
+                <td>850.000 VNĐ</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Lót chuột cỡ lớn</td>
+                <td>150.000 VNĐ</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
